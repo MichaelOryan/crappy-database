@@ -17,3 +17,16 @@ TODO
 Rather than just jumping into writing my code I'll be doing some design before writing the body of the code for the program.
 
 Obviously prototype testing of idea and creation of header files are excluded and from what I understand are part of the design process. No real point in writing a function to do something if the idea for it isn't feasible.
+
+6/7/14 update
+---------------
+
+I'm thinking that because I cover databases next year it might be best to leave that until I have a better understanding of databases. Or at least until I've practiced on handling data in a file in a simpler format.
+
+So the goal at the moment is to make a library that can be used to compress a bunch of files or data into a single file and use the same library to pull those files out again. Maybe at random.
+
+With that in mind my library should be able to do the following.
+
+Take a bunch of different data and write it to a file. Without regard to type.
+Pull that data out again and return it without regard to type.
+Update data in the file. Since this is expected to be done minimally, at least compared to constant updates in a database. Writing the whole file or most of the file again is ok for the moment.
